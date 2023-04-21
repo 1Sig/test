@@ -1,0 +1,55 @@
+body{
+  background: #333;
+}
+.container{
+  max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+  color: yellow;
+  border: none;
+  background: #000000;
+  max-width: 400px;
+}
+.todos li{
+  background: #000000;
+}
+.delete{
+  cursor: pointer;
+}
+.filtered{
+  display: none !important;
+}
+span{
+  color: yellow;
+}
+
+h1{
+  color: yellow;
+}
+text{
+  color: yellow;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
